@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <div class="logo"> <img src="./img/odin-logo.png" alt="Odin">
+                    <h1>Odin</h1>
+                </div>
+            </div>
+            <div class="copyright">
+                <h3>Photo by <span>Halie West</span> on <span>unsplash</span></h3>
+            </div>
+        </header>
+        <main>
+            <section class="desc">
+                <p>This is not a real online service! You know you need something <br> like this in your life to help
+                    you
+                    realize your deepest dreams. <br> Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </section>
+            <section class="fields">
+                <form action="">
+                    <fieldset>
+                        <legend>Let's do this!</legend>
+                        <div class="name">
+                            <div class="field-container">
+                                <label for="first_name">First name</label>
+                                <input type="text" name="first_name" id="first_name">
+                            </div>
+                            <div class="field-container">
+                                <label for="last_name">Last name</label>
+                                <input type="text" name="last_name" id="last_name">
+                            </div>
+                        </div>
+                        <div class="contacts">
+                            <div class="field-container">
+                                <label for="email">email</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div class="field-container">
+                                <label for="phone">phone number</label>
+                                <input type="tel" name="phone" id="phone">
+                            </div>
+                        </div>
+                        <div class="password">
+                            <div class="field-container">
+                                <label for="password">password</label>
+                                <input type="password" name="password" id="password">
+                            </div>
+                            <div class="field-container">
+                                <label for="confirm-pass">confirm password</label>
+                                <input type="password" name="confirm-pass" id="confirm-pass">
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+            <section>
+                <button type="submit">Create account</button>
+                <h4>Already have an account? <a href="#">Log in</a></h4>
+            </section>
+        </main>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
